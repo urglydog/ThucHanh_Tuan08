@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Boostrap/css/bootstrap.min.css">
+    <script src="/Boostrap/js/jquery-3.7.1.min.js"></script>
+    <script src="/Boostrap/js/bootstrap.min.js"></script>
+    <script src="/Bai3/js/bai3.js"></script>
+    <script src=""></script>
+</head>
+<style>
+    [class*=col-] {
+        margin: 0px auto;
+        padding: 0px;
+    }
+    th,td,tr{
+        width: 400px;
+        height: 50px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="contaier">
+        <form action="">
+            <div class="form-group">
+                <label for="">Họ tên</label>
+                <input type="text" id="txtName">
+                <span id="loiName"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Lớp</label>
+                <select name="lop" id="lop">
+                    <option value="DHKTPM18A" name="Đại học kĩ thuật phần mềm 18A">
+                        Đại học kĩ thuật phần mềm 18A
+                    </option>
+                    <option value="DHKTPM19CTT" name="Đại học kĩ thuật phần mềm 19A Tiên Tiến ">
+                        Đại học kĩ thuật phần mềm 19A Tiên Tiến
+                    </option>
+                    <option value="DHKHMT17A" name="Đại học khoa học máy tính 17A">
+                        Đại học khoa học máy tính 17A
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Môn học</label>
+                <select name="mon" id="mon">
+                    <option value="3" name="Tiếng anh 1">
+                        Tiếng anh 1
+                    </option>
+                    <option value="4" name="lập trình hướng đối tượng">
+                        lập trình hướng đối tượng
+                    </option>
+                    <option value="3" name="Hệ quản trị cơ sở dữ liệu">
+                        Hệ quản trị cơ sở dữ liệu
+                    </option>
+                    <option value="2" name="Lập trình HSK với công nghệ Java">
+                        Lập trình HSK với công nghệ Java
+                    </option>
+                    <option value="3" name="Pháp luật đại cương">
+                        Pháp luật đại cương
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Loại</label>
+                <input type="radio" name="loai" id="lt" value="Lý thuyết">
+                <label for="">Lý thuyết</label>
+                <input type="radio" name="loai" id="th" value="Thực hành">
+                <label for="">Thực hành</label>
+                <span id="loiLoai"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="dk" >Đăng kí</button>
+            </div>
+        </form>
+
+
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <table id="table" class="table-bordered " >
+                <thead>
+                    <tr>
+                        <th>Họ tên</th>
+                        <th>Mã lớp</th>
+                        <th>Tên lớp</th>
+                        <th>Môn học đăng kí</th>
+                        <th>Số tín chỉ</th>
+                        <th>Loại</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr></tr> -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>

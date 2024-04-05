@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Boostrap/css/bootstrap.min.css">
+    <script src="/Boostrap/js/jquery-3.7.1.min.js"></script>
+    <script src="/Boostrap/js/bootstrap.min.js"></script>
+    <script src="/Bai1/a/js/bai8a.js"></script>
+</head>
+<style>
+    [class*=col-]{
+        padding: 0px;
+        margin: 0px auto;
+    }
+    span{
+        color: red !important;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 class="text-center " >ĐĂNG KÍ TÀI KHOẢN</h1>
+        <form action="">
+            <table class="table  ">
+                <tr>
+                    <td>
+                    <label for="" id="lblDN">Tên đăng nhập:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtDN" id="txtDN" placeholder="txtDN">
+                        <span id="loiDN">*</span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblMK">Mật khẩu:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="txtMK" id="txtMK" placeholder="txtMK">
+                        <span id="loiMK">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblXNMK">Nhập lại mật khẩu:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtXNMK" id="txtXNMK" placeholder="txtXNMK">
+                        <span id="loiXNMK">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center ">THÔNG TIN CÁ NHÂN</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblHoTen">Họ và tên:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtName" id="txtName" placeholder="txtName">
+                        <span id="loiName">* bắt buộc</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblDate">Ngày sinh:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="txtDate" id="txtDate" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblGt">Giới tính:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gt" id="gtNam" value="Nam">
+                        <label for="nam" >Nam</label>
+                        <input type="radio" name="gt" id="gtNu" value="Nữ">
+                        <label for="nu" >Nữ</label>
+                        <span id="loiGt"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblDC">Địa chỉ:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtDC" id="txtDC" placeholder="txtDC">
+                        <span id="loiDC">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblDT">Điện thoại:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtDT" id="txtDT" placeholder="txtDT">
+                        <span id="loiDT">* phải là số</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="" id="lblEmail">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="txtEmail" id="txtEmail" placeholder="txtEmail">
+                        <span id="loiEmail">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <button type="button" class="bg-dark text-white  ">Đăng kí</button>
+                        <button type="button" class="bg-dark text-white  ">Hủy</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

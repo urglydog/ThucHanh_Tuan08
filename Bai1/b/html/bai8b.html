@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Boostrap/css/bootstrap.min.css">
+    <script src="/Boostrap/js/jquery-3.7.1.min.js"></script>
+    <script src="/Boostrap/js/bootstrap.min.js"></script>
+    <script src="../js/bai8b.js"></script>
+</head>
+
+<style>
+    [class*=col-] {
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    .header {
+        background-color: #3B5798;
+    }
+
+    #btnDN {
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 5px;
+        background-color: #a8b8db;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-6 col-12">
+                <h1 class=" text-white mt-4  ">
+                    Face book
+                </h1>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <p class="text-white">Email hoặc điện thoại</p>
+                        <input id="" type="text" id="txtSubEmail" class="txtSubEmail">
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <p class="text-white ">Mật khẩu</p>
+                        <input id="" type="text" id="txtSubPass" class="txtSubPass">
+                        <p id="quenMK" class="text-white ">Quên mật khẩu</p>
+                    </div>
+                    <div class="col-md-2 col-12">
+                        <a name="" id="btnDN" class="btn text-white " href="#" role="button">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: #E6E5F7;">
+            <div class="col-md-5 col-12">
+                <img src="../img/z5319288383579_215e0bca0527adc7fbeeb859ec7f6789.jpg" alt="">
+                <h1 class="text-primary  ">Cảm ơn bạn đã ghé thăm!</h1>
+                <p style="color: rgb(36, 36, 123);">Chúng tôi mông sớm gặp lại bạn</p>
+            </div>
+            <div class="col-md-7 col-12">
+                <div class="row">
+                    <h1 class="mx-5 ">Đăng kí</h1>
+                </div>
+                <div class="row">
+                    <p class="mx-5   ">Miến phí và sẽ luôn như vậy.</p>
+                </div>
+                <div class="row">
+                    <form action="" style="margin-left: 50px;">
+                        <div class="form-group">
+                            <input id="txtHo" type="text" placeholder="Họ">
+                            <span id="loiHo"></span>
+                            <input id="txtTen" type="text" placeholder="Tên">
+                            <span id="loiTen"></span>
+                        </div>
+                        <div class="form-group">
+                            <input id="txtEmail" type="email" placeholder="Email đăng nhập" style="width: 100%;">
+                            <span id="loiEmail"></span>
+                        </div>
+                        <div class="form-group">
+                            <input id="txtXNEM" type="email" placeholder="Nhập lại email" style="width: 100%;">
+                            <span id="loiXNEM"></span>
+                        </div>
+                        <div class="form-group">
+                            <input id="txtMK" type="password" placeholder="Mật khẩu" style="width: 100%;">
+                            <span id="loiMK"></span>
+                        </div>
+                        <div class="form-group">
+                            <input id="txtNamSinh" type="number" placeholder="Năm sinh" style="width: 100%;">
+                            <span id="loiNS"></span>
+                        </div>
+                        <div class="form-group">
+                            <button style="background-color: green;" type="submit" class="text-white  ">Đăng kí</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
